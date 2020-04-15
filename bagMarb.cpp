@@ -1,3 +1,13 @@
+/*
+This program creates a bag variable and allows the user to add a marble,
+remove a marble, or dump marbles on the ground.
+
+Sean Collins
+Professor Joseph Jess - CS 260
+Assignment 1 - Bag of Marbles
+April 15th, 2020
+*/
+
 #include <cstdio>
 #include <iostream>
 
@@ -5,8 +15,8 @@ using std::cout;
 using std::endl;
 using std::cin;
 
-unsigned long bag = 0;
-unsigned int selection = 0;
+long bag = 0;
+int selection = 0;
 int  stillPlaying = 1;
 
 // This function gives the option to end the program.
